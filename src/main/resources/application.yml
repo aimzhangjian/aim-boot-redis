@@ -1,0 +1,7 @@
+spring:
+   application:
+       name: redis-study
+   redis:
+       host: ${REDIS_DEFAULT_URL:127.0.0.1}
+       port: 6379
+       database: 1
