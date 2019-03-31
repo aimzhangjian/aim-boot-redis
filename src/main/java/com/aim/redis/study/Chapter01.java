@@ -30,19 +30,6 @@ public class Chapter01 {
     @Autowired
     private ZSetOperations<String, String> zSetOperations; //zset类型数据操作
 
-    @Autowired
-    private BoundValueOperations<String, String> boundValueOperations; //简单k-v操作
-    @Autowired
-    private BoundListOperations<String, String> boundListOperations; //list类型数据操作
-    @Autowired
-    private BoundSetOperations<String, String> boundSetOperations; //set类型数据操作
-    @Autowired
-    private BoundHashOperations<String, String, String> boundHashOperations; //map类型数据操作
-    @Autowired
-    private BoundZSetOperations<String, String> boundZSetOperations; //zset类型数据操作
-
-
-
     private static final int ONE_WEEK_IN_SECONDS = 7 * 86400;
     private static final int VOTE_SCORE = 432;
     private static final int ARTICLES_PER_PAGE = 25;
